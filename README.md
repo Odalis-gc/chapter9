@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <h1>Music Survey<h1>
+   <h1>New Form</h1>
+    <a class="button" href="newform.html" target="_blanl"Open New Form</a>
+    <h2>Music Survey<h2>
    <a class="button" href="musicform.html" target="_blank">Open Music Survey</a>
 </body>
 </html>
