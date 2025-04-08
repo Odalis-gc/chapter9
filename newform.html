@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title Goes Here</title>
+<meta charset="utf-8">
+</head>
+<body>
+
+<form action="https://webdevfoundations.net/scripts/mydemo.asp" method="POST">
+
+  <label for="username">Username:</label>
+  <input type="text" name="username" id="email" maxlength="30" required>
+  <br>
+  <br>
+
+  <label for="fav-day">Favorite Day of the Week:</label><br>
+  <input type="radio" name="fav_day" id="Monday" value="Monday">
+  <label for="Monday">Monday</label><br>
+  <input type="radio" name="fav_day" id="Tuesday" value="Tuesday">
+  <label for="Tuesday">Tuesday</label><br>
+  <input type="radio" name="fav_day" id="Wednesday" value="Wednesday">
+  <label for="Wednesday">Wednesday</label><br>
+  <input type="radio" name="fav_day" id="Thursday" value="Thursday">
+  <label for="Thursday">Thursday</label><br>
+  <input type="radio" name="fav_day" id="Friday" value="Friday">
+  <label for="Friday">Friday</label><br>
+  <input type="radio" name="fav_day" id="Saturday" value="Saturday">
+  <label for="Saturday">Saturday</label><br>
+  <input type="radio" name="fav_day" id="Sunday" value="Sunday">
+  <label for="Sunday">Sunday</label><br><br>
+
+  <label for="social network">Favorite Social Networking Site:</label>
+  <select id="social network" name="social network" required>
+   <option value="Facebook">Facebook</option>
+   <option value="Integral">Instagram</option>
+   <option value="X">X</option>
+   <option value="TikTok">TikTok</option>
+   <option value="LinkedIn">LinkedIn</option>
+  </select><br><br>
+
+  <fieldset>
+   <legend>Shipping Address</legend>
+   <label for="addressline1">Address Line 1:</label>
+   <input type="text" name="addressline1" id="addresssline1" required>
+   <br><br>
+  
+   <label for="addressline2">Address Line 2:</label>
+   <input type="text" name="addressline2" id="addresssline2">
+   <br><br>
+
+   <label for="city">City:</label>
+   <input type="text" name="city" id="city" required>
+   <br><br>
+
+   <label for="state">State:</label>
+   <input type="text" name="state" id="state" required>
+   <br><br>
+
+   <label for="zip">Zip Code:</label>
+   <input type="text" name="zip" id="zip" required>
+   <br><br>
+  </fieldset>
+
+  <input type="image" src="signup.gif" alt="Sign Up">
+  <br><br>
+
+  <input type="hidden" name="userid" value="12345">
+
+  <label for="pword">Password:</label>
+  <input type="password" name="pword" id="pword" required>
+  <br><br>
+</form>
+
+
+
+</body>
+</html>
