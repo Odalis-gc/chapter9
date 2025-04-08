@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Music Survey</title>
 </head>
 <body>
     <h1>Music Survey<h1>
